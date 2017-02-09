@@ -1,14 +1,14 @@
 {
-  "name": "lodash-aliases",
+  "name": "lodash-backports",
   "description": "Backfill lodash aliases that were removed in v4",
   "version": "1.2.0",
-  "main": "lib/lodash-aliases.js",
+  "main": "lib/lodash-backports.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tandrewnichols/lodash-aliases.git"
+    "url": "git://github.com/tandrewnichols/lodash-backports.git"
   },
   "keywords": [
     "lodash",
@@ -24,12 +24,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tandrewnichols/lodash-aliases/issues"
+    "url": "https://github.com/tandrewnichols/lodash-backports/issues"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "homepage": "https://github.com/tandrewnichols/lodash-aliases",
+  "homepage": "https://github.com/tandrewnichols/lodash-backports",
   "dependencies": {},
   "devDependencies": {
     "browserify": "^12.0.2",

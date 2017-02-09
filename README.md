@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/lodash-aliases.png)](https://travis-ci.org/tandrewnichols/lodash-aliases) [![downloads](http://img.shields.io/npm/dm/lodash-aliases.svg)](https://npmjs.org/package/lodash-aliases) [![npm](http://img.shields.io/npm/v/lodash-aliases.svg)](https://npmjs.org/package/lodash-aliases) [![Code Climate](https://codeclimate.com/github/tandrewnichols/lodash-aliases/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/lodash-aliases) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/lodash-aliases/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/lodash-aliases) [![dependencies](https://david-dm.org/tandrewnichols/lodash-aliases.png)](https://david-dm.org/tandrewnichols/lodash-aliases) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
+[![Build Status](https://travis-ci.org/tandrewnichols/lodash-backports.png)](https://travis-ci.org/tandrewnichols/lodash-backports) [![downloads](http://img.shields.io/npm/dm/lodash-backports.svg)](https://npmjs.org/package/lodash-backports) [![npm](http://img.shields.io/npm/v/lodash-backports.svg)](https://npmjs.org/package/lodash-backports) [![Code Climate](https://codeclimate.com/github/tandrewnichols/lodash-backports/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/lodash-backports) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/lodash-backports/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/lodash-backports) [![dependencies](https://david-dm.org/tandrewnichols/lodash-backports.png)](https://david-dm.org/tandrewnichols/lodash-backports) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
 
-# lodash-aliases
+# lodash-backports
 
 Backfill lodash aliases that were removed in v4
 
 ## Installation
 
-`npm install --save lodash-aliases`
+`npm install --save lodash-backports`
 
 ## Summary
 
@@ -19,14 +19,14 @@ This module is for those who prefer some of these aliases to the actual function
 In node, requiring this function will extend lodash (if present) with the missing methods. Lodash is listed as an peer dependency because this module is intended to be used in projects along side an existing lodash install, and this module will not work if it doesn't have access to the dependent's version of lodash.
 
 ```js
-require('lodash-aliases');
+require('lodash-backports');
 var _ = require('lodash');
 _.any([1, 2, 3], function(num) {
   return num % 2 === 0;
 }); // true
 ```
 
-In the browser, you have even less work to do. By simply including `dist/lodash-aliases.js` or `dist/lodash-aliases.min.js` in a script or in a build bundle, lodash will automatically be extended on load.
+In the browser, you have even less work to do. By simply including `dist/lodash-backports.js` or `dist/lodash-backports.min.js` in a script or in a build bundle, lodash will automatically be extended on load.
 
 ## Contributing
 

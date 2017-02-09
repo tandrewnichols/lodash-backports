@@ -1,5 +1,5 @@
-describe 'lodash-aliases', ->
-  Given -> require '../lib/lodash-aliases'
+describe 'lodash-backports', ->
+  Given -> require '../lib/lodash-backports'
   Given -> @subject = require 'lodash'
   
   context 'should include all the aliases', ->

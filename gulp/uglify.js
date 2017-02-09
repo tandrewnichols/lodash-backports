@@ -6,6 +6,6 @@ var config = require('./config');
 gulp.task('uglify', function() {
   gulp.src(config.lib)
     .pipe(uglify())
-    .pipe(rename('lodash-aliases.min.js'))
+    .pipe(rename('lodash-backports.min.js'))
     .pipe(gulp.dest('dist'));
 });
