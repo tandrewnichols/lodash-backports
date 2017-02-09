@@ -4,7 +4,8 @@
   "version": "1.2.0",
   "main": "lib/lodash-backports.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "travis": "gulp travis"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "coffeeify": "^2.1.0",
     "file-manifest": "^2.0.4",
     "gulp": "^3.9.0",
+    "gulp-cli": "^1.2.2",
     "gulp-codeclimate-reporter": "^1.2.0",
     "gulp-copy": "^1.0.0",
     "gulp-debug": "^3.0.0",
