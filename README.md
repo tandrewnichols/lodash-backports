@@ -2,6 +2,8 @@
 
 # lodash-backports
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tandrewnichols/lodash-backports.svg)](https://greenkeeper.io/)
+
 Backfill lodash aliases that were removed in v4
 
 ## Installation
