@@ -1,0 +1,18 @@
+language: node_js
+sudo: false
+install:
+  - "npm install lodash"
+  - "npm install"
+script:
+  - "gulp travis"
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "5"
+  - "iojs-v1"
+  - "iojs-v2"
+  - "iojs-v3"
+cache:
+  directories:
+    - 'node_modules'
