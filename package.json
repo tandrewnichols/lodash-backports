@@ -34,6 +34,7 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.0.0",
+    "clear-require": "^2.0.0",
     "coffee-script": "^1.12.3",
     "coffeeify": "^2.1.0",
     "eslint-codeframe-formatter": "^1.0.2",
