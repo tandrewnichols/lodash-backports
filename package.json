@@ -33,7 +33,7 @@
   "homepage": "https://github.com/tandrewnichols/lodash-backports",
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^14.0.0",
+    "browserify": "^14.2.0",
     "clear-require": "^2.0.0",
     "coffee-script": "^1.12.3",
     "coffeeify": "^2.1.0",
