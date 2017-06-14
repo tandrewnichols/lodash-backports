@@ -44,7 +44,7 @@
     "gulp-codeclimate-reporter": "^1.2.0",
     "gulp-copy": "^1.0.0",
     "gulp-debug": "^3.0.0",
-    "gulp-eslint": "^3.0.1",
+    "gulp-eslint": "^4.0.0",
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^4.0.0",
     "gulp-open": "^2.0.0",
